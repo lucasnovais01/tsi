@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <!-- Usasse o form pra iniciar formulários, o maxleight é o número máximo de caracteres, readonly é pra travar o formulario-->
+    <!-- lembrar de colocar dentro das <div></div> inicia-se com <label> a parte for="" é pra identificação, se colocar junto <id="">-->
+    <!-- placeholder é a mensagem que aparece no campo para deixar intuitivo para a pessoa saber o que digitar-->
+    <!-- required faz o campo obrigatório-->
+    <h1>Formulários</h1>
+    <form action="">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" value="" maxlength="10" size="" placeholder="Digite seu nome" required id="nome">
+    </div>
+    <div>
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+    </div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id:"email">
+    <div>
+        <button type="summit">Enviar</button>
+        <button type="reset">Apagar</button>
+    </div>
+    </form>
+</body>
+</html>
